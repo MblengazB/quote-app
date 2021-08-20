@@ -7,13 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuoteComponent implements OnInit {
      title='Welcome to My Quote Hub'
-     Quote=(1,'Whatever Your Mind Can Conceive and Believe, It Can Achieve.','Napoleon hill')
-
-
+     Quote='Whatever your mind can conceive and believe, it can achieve.'
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
