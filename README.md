@@ -23,27 +23,6 @@
     </div>
     </div>
     <h1>Project Set-up Instructions</h1>
-     <ul>
-     <li>MkDir</li>
-     <li>ng create angular project</li>
-     <li>Github push changes</li>
-     <li>Git hub live io site</li>
-     <li>Github push to save changes</li>
-     <li>Git hub-click live site link to get to the io site</li>
-       Scripts used: typescript,Css file to style,img attachment,Bookstrap
-     </ul>
-     </div>
-     </div>
-    <h1>Live site</h1>
-    Click link to find live site:
-   <h1>License</h1>
-   Copyright (c) 2021 Andrew Indeche
-   By using and/or copying this project, or the license document from which this statement is linked, you (the licensee) agree that you have read, understood, and    will comply with conditions of use.
-   View License information attached link
-    https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE
-
-
-Set up Instructions
 # QuoteApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
@@ -71,3 +50,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+       Scripts used: typescript,Css file to style,img attachment,Bookstrap
+     </ul>
+     </div>
+     </div>
+    <h1>Live site</h1>
+    Click link to find live site:
+   <h1>License</h1>
+   Copyright (c) 2021 Andrew Indeche
+   By using and/or copying this project, or the license document from which this statement is linked, you (the licensee) agree that you have read, understood, and    will comply with conditions of use.
+   View License information attached link
+    https://github.com/AndrewIndeche/javascriptproject/blob/master/LICENSE
+
+
