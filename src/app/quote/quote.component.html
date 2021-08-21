@@ -1,7 +1,8 @@
-<div>
+
+<div class="container">
   <h1>Welcome to My Quote Hub</h1>
   <ul>
     <li *ngFor='let quote of quotes'>
-      {{quotes}}
+       <app-quote-detail [quote]='quote'></app-quote-detail>
     </ul>
   </div>
