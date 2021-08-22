@@ -22,8 +22,10 @@ form {
 .container-fluid{
   background-color: rgba(137, 196, 244, 0.2);
   border-radius: 4px;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
+  padding-top: 5%;
+  padding-left:5%;
   box-shadow: 2px 2px 3px 2px black;
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Monaco', cursive;
   margin-bottom: 5%;
 }
