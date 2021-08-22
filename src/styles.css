@@ -1,14 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
-body { background:url(./assets/background.jpg) }
+body { background:url(./assets/background.jpg); color:white;}
 
 .card{
-background-color: rgb(0, 191, 255);
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left: 50px;
-padding-right: 50px;
+background-color: rgb(43, 161, 199);
+padding-top: 40px;
+padding-bottom: 40px;
+padding-right:80px;
+padding-left:50px;
+
 }
 .h1{
 text-align: center;
+}
+form {
+ width: 300px;
+ height: 300px;
+ margin: auto;
+ position: relative;
+}
+.container-fluid{
+  background-color: rgba(137, 196, 244, 0.2);
+  border-radius: 4px;
+  padding-bottom: 5%;
+  box-shadow: 2px 2px 3px 2px black;
+  font-family: 'Architects Daughter', cursive;
+  margin-bottom: 5%;
 }
