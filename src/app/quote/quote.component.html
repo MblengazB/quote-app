@@ -1,10 +1,15 @@
-<div class="overlay">
-<h1>Welcome to My Quote Hub</h1>
+<h1 style="text-align:center">Welcome to My Quote Hub</h1>
+<h3 style="text-align:center">Share Your Favorites or Rate Quote</h3>
 <div class="container-fluid">
   <div class="row">
-  <div class="col-sm-3">
+  <div class="col-sm-4">
     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
-    <div *ngFor='let quote of quotes',let i=index>
+    <li *ngFor='let quote of quotes'>
+      <p>{{quote.name}}<p>
+        <p>{{quote.title}}<p>
+          <p>{{quote.description}}<p>
+            <p>{{quote.author}}<p>
+
        </div>
   </div>
   </div>
