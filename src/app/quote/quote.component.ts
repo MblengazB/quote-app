@@ -7,8 +7,7 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-  title='Welcome to My Quote Hub'
-  quotes:Quote []=[
+  quote:Quote []=[
     new Quote (1,'Peter','Motivational quote','Whatever your mind can conceive and believe it can achieve','Napoleon Hill'),
      new Quote(2,'Paul','Life quote','A coward dies a thousand deaths A soldier dies but once','Tupac Shakur'),
      new Quote(3,'Mark','celebrity glitz quote','I dont think i just walk','Paris Hilton'),
