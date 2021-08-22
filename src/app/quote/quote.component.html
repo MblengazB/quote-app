@@ -1,8 +1,11 @@
-<div class="container">
+<div class="overlay">
 <h1>Welcome to My Quote Hub</h1>
-<div class="row">
-  <div class="col-md-6">
-    <li *ngFor='let quotes of quote'>
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-3">
+    <app-quote-form></app-quote-form>
+    <div *ngFor='let quotes of quote',let i=index>
+       <app-quote-detail [quote]='quote'></app-quote-detail>
        </div>
   </div>
   </div>
