@@ -8,12 +8,12 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes:Quote []=[
-    new Quote (1,'Peter','Motivational quote','Whatever your mind can conceive and believe it can achieve','Napoleon Hill'),
-     new Quote(2,'Paul','Life quote','A coward dies a thousand deaths A soldier dies but once','Tupac Shakur'),
-     new Quote(3,'Mark','celebrity glitz quote','I dont think i just walk','Paris Hilton'),
-     new Quote(4,'Onyango','Business quote','Always deliver more than expected','larry Page'),
-     new Quote(5,'Dequan','Sports quote','You miss 100% of the shots you do not take','wayne Gretzky'),
-     new Quote(6,'Gustavo','Comedy quote','People say nothing is impossible but i do nothing everyday','A Milne'),
+    new Quote (1,'Peter','Motivational quote','Whatever your mind can conceive and believe it can achieve','Napoleon Hill',new Date(1937,1,12)),
+     new Quote(2,'Paul','Life quote','A coward dies a thousand deaths A soldier dies but once','Tupac Shakur',new Date(1994,9,3)),
+     new Quote(3,'Mark','celebrity glitz quote','I dont really think i just walk','Paris Hilton',new Date(2006,7,6)),
+     new Quote(4,'Onyango','Business quote','Always deliver more than expected','larry Page',new Date(2011,5,11)),
+     new Quote(5,'Dequan','Sports quote','You miss 100% of the shots you do not take','wayne Gretzky',new Date(2013,5,6)),
+     new Quote(6,'Gustavo','Comedy quote','People say nothing is impossible but i do nothing everyday','A Milne',new Date(2015,6,8)),
 ];
       addNewQuote(quote){
        let quoteLength = this.quotes.length;
