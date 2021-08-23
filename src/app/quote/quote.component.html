@@ -6,15 +6,18 @@
   <div class="col-sm-3">
     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
        <div class="all-cards">
-    <div *ngFor='let quote of quotes; let i= index'>
+    <div *ngFor='let quote of quotes; let i= index;'>
+      <app-quote-info *ngIf='quotes.moreDetails' [quote]='quote' (toDelete) = 'deleteQuote($event,i)'></app-quote-info>
       <div class="card">
       <p>{{quote.name}}<p>
       <p>{{quote.title}}<p>
       <p>{{quote.description}}<p>
       <p>{{quote.author}}<p>
       <p appStrikethrough> posted on {{quote.completeDate|date}}</p>
+      <p>{{quote.likes}}<p>
+      <p>{{quote.dislikes}}<p>
           </div>
        </div>
        </div>

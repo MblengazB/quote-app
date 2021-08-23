@@ -6,8 +6,8 @@ body { background:url(./assets/background.jpg); color:white;}
 background-color: rgb(43, 161, 199);
 padding-top: 40px;
 padding-bottom: 40px;
-padding-right:80px;
-padding-left:50px;
+padding-right:100px;
+padding-left:30px;
 
 }
 .h1{
@@ -25,9 +25,13 @@ form {
   padding-bottom: 8%;
   padding-top: 5%;
   padding-left:5%;
+  padding-right: 5%;
   box-shadow: 2px 2px 3px 2px black;
   margin-bottom: 5%;
 }
 .all-cards{
   display: flex;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Special Elite' }
