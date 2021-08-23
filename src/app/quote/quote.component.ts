@@ -13,7 +13,7 @@ export class QuoteComponent implements OnInit {
      new Quote(3,'Mark','celebrity glitz quote','I dont really think i just walk','Paris Hilton',new Date(2006,7,6)),
      new Quote(4,'Onyango','Business quote','Always deliver more than expected','larry Page',new Date(2011,5,11)),
      new Quote(5,'Dequan','Sports quote','You miss 100% of the shots you do not take','wayne Gretzky',new Date(2013,5,6)),
-     new Quote(6,'Gustavo','Comedy quote','People say nothing is impossible but i do nothing everyday','A Milne',new Date(2015,6,8)),
+     new Quote(6,'Gustavo','Comedy quote','People say nothing is impossible but i do nothing everyday','A Milne',new Date(2015,12,6)),
 ];
       addNewQuote(quote){
        let quoteLength = this.quotes.length;
