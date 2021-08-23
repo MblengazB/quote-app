@@ -26,6 +26,8 @@ form {
   padding-top: 5%;
   padding-left:5%;
   box-shadow: 2px 2px 3px 2px black;
-  font-family: 'Monaco', cursive;
   margin-bottom: 5%;
+}
+.all-cards{
+  display: flex;
 }

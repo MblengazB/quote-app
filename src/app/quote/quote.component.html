@@ -1,19 +1,20 @@
 <div class="overlay">
 <h1 style="text-align:center">Welcome to My Quote Hub</h1>
-<h3 style="text-align:center">Share Your Favorites or Rate Quotes</h3>
+<h3 style="text-align:center">Share Your Favorites Quotes or Rate Quotes</h3>
 <div class="container-fluid">
   <div class="row">
   <div class="col-sm-3">
     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
        <div class="all-cards">
-    <div *ngFor='let quote of quotes'>
+    <div *ngFor='let quote of quotes; let i= index'>
       <div class="card">
       <p>{{quote.name}}<p>
-        <p>{{quote.title}}<p>
-          <p>{{quote.description}}<p>
-            <p>{{quote.author}}<p>
+      <p>{{quote.title}}<p>
+      <p>{{quote.description}}<p>
+      <p>{{quote.author}}<p>
+      <p appStrikethrough> posted on {{quote.completeDate|date}}</p>
           </div>
        </div>
        </div>
