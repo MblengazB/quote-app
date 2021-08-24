@@ -1,1 +1,12 @@
+<div class="card">
+  <i (click)='likeButtonClick()' class="fas fa-thumbs-up fa-2x thumb-up"></i>
+  {{numberOfLikes}}
+    <i (click)='dislikeButtonClick()' class="fas fa-thumbs-down fa-2x thumb-down"></i>
+  {{numberOfDislikes}} &nbsp;&nbsp;&nbsp;{{quote.posteddate|datePipe}}
+<p>{{quote.name}}<p>
+<p>{{quote.title}}<p>
+<p>{{quote.description}}<p>
+<p>{{quote.author}}<p>
+<p appStrikethrough> posted on {{quote.posteddate|date}}</p>
 <button (click)= 'deleteQuote(true)' class="btn btn-outline-danger">Delete</button>
+    </div>

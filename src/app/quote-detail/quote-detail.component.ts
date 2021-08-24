@@ -14,6 +14,15 @@ export class QuoteDetailComponent implements OnInit {
   deleteQuote(remove:boolean){
   this.toDelete.emit(remove);
 }
+    numberOfLikes : number = 0;
+    numberOfDislikes: number = 0;
+    likeButtonClick() {
+      this.numberOfLikes++;
+    }
+    dislikeButtonClick(){
+      this.numberOfDislikes++;
+    }
+
 
   constructor() { }
 
